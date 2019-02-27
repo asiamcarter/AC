@@ -1,25 +1,25 @@
 jQuery(document).ready(function ($) {
  "use strict";
 
-// 
+//
 //----------------------------------
  /*----------------------------
  jQuery MeanMenu
 ------------------------------ */
-jQuery('nav#dropdown').meanmenu();	
+jQuery('nav#dropdown').meanmenu();
 
 //wow js active
 //=================
  new WOW().init();
 
-//google map activation 
+//google map activation
 //===========================
 	if ($('#gmap').length > 0) {
 		new GMaps({
 			div: '#gmap',
 			lat: 23.7947172, // 23.7947172,90.3971412
 			lng: 90.3971412,
-			scrollwheel: false,				
+			scrollwheel: false,
 			styles: [
 				{
 					"featureType": "landscape",
@@ -153,43 +153,43 @@ jQuery('nav#dropdown').meanmenu();
 //=================
 $('.skills-list').appear(function() {
 	$('#demoprogressbar1').LineProgressbar({
-		percentage: 80,
+		percentage: 100,
 		fillBackgroundColor: '#f7f7f7',
 		backgroundColor: '#202c3d',
 		height: '10px',
-		radius: '6px',
+		radius: '6px'
 
 	});
 	$('#demoprogressbar2').LineProgressbar({
-		percentage: 90,
+		percentage: 100,
 		fillBackgroundColor: '#f7f7f7',
 		backgroundColor: '#202c3d',
 		height: '10px',
 		radius: '6px',
 	});
 	$('#demoprogressbar3').LineProgressbar({
-		percentage: 60,
+		percentage: 100,
 		fillBackgroundColor: '#f7f7f7',
 		backgroundColor: '#202c3d',
 		height: '10px',
 		radius: '6px',
 	});
 	$('#demoprogressbar4').LineProgressbar({
-		percentage: 80,
+		percentage: 100,
 		fillBackgroundColor: '#f7f7f7',
 		backgroundColor: '#202c3d',
 		height: '10px',
 		radius: '6px',
 	});
 	$('#demoprogressbar5').LineProgressbar({
-		percentage: 50,
+		percentage: 100,
 		fillBackgroundColor: '#f7f7f7',
 		backgroundColor: '#202c3d',
 		height: '10px',
 		radius: '6px',
 	});
 	$('#demoprogressbar6').LineProgressbar({
-		percentage: 80,
+		percentage: 100,
 		fillBackgroundColor: '#ffdf00',
 		backgroundColor: '#202c3d',
 		height: '10px',
@@ -197,7 +197,7 @@ $('.skills-list').appear(function() {
 
 	});
 	$('#demoprogressbar7').LineProgressbar({
-		percentage: 90,
+		percentage: 100,
 		fillBackgroundColor: '#ffdf00',
 		backgroundColor: '#202c3d',
 		height: '10px',
@@ -226,14 +226,14 @@ $('.skills-list').appear(function() {
 	});
   });
 
-//profile-img 	
+//profile-img
 //=================
   $(".profile-img").hover3d({
 	selector: ".project__card"
 });
 
 
-//isotope activation 	
+//isotope activation
 //=================
 $('.grid').appear(function() {
 	// filter items on button click
@@ -267,4 +267,4 @@ $('.grid').appear(function() {
 
 
 
-}); 
+});

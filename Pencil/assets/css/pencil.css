@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-Theme Name: Pencil- Virtual Business Card CV Resume HTML Template 
+Theme Name: Pencil- Virtual Business Card CV Resume HTML Template
 Author URI: https://themeforest.net/user/createuiux/portfolio
 Version : 1.0.1
 
@@ -30,7 +30,7 @@ table content
 9.pencile-area-two
 
 */
-/*--------------------  
+/*--------------------
 //
 --------------------*/
 body {
@@ -40,10 +40,10 @@ body {
   line-height: 24px;
   color: #000000;
   font-weight: 400;
-  background: #ffdf00; }
+  background: #FFF1C6; }
 
 .body-class {
-  background: #ffffff; }
+  background: #FFF1C6; }
 
 *:focus {
   outline: 0 !important;
@@ -91,11 +91,11 @@ body {
   clear: both; }
 
 ::-moz-selection {
-  background: #ffdf00;
+  background: white;
   text-shadow: none; }
 
 ::selection {
-  background: #ffdf00;
+  background: white;
   text-shadow: none; }
 
 .browserupgrade {
@@ -144,7 +144,7 @@ body {
           color: #ffffff;
           padding: 50px 0; }
           .header-area .menu-area ul li:hover ul li a:hover {
-            color: #FFDF00; }
+            color: white; }
     .header-area .menu-area ul li ul {
       position: absolute;
       content: "";
@@ -184,7 +184,7 @@ body {
 --------------------------------------*/
 .pencile-area {
   margin-top: 100px;
-  background: #ffdf00;
+  background: #FFF1C6;
   position: relative;
   /*-------------------------------------
   2.7.widget-area
@@ -267,9 +267,9 @@ body {
               font-size: 30px; }
 
 #pencil-info {
-  -webkit-box-shadow: 0px 3px 88px 24px #ffd200;
-  -moz-box-shadow: 0px 3px 88px 24px #ffd200;
-  box-shadow: 0px 3px 88px 24px #ffd200;
+  -webkit-box-shadow: 0px 3px 88px 24px #FFF1C6;
+  -moz-box-shadow: 0px 3px 88px 24px #FFF1C6;
+  box-shadow: 0px 3px 88px 24px #FFF1C6;
   padding: 0 45px; }
 
 .pencil-content-area {
@@ -714,8 +714,8 @@ body {
 		box-shadow: 2px 2px 60px #ffbf08;
 		background-color:#ffdf00;
 		transition: .5s;}
-	
-		
+
+
     .pencil-content-area .testimonia-area .single-testimonial p {
       font-size: 14px;
       line-height: 22px;
